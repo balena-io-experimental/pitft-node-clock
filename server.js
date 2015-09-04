@@ -67,8 +67,8 @@ var update = function() {
   hand(fb, 0, 0, seconds / 60 * 360, radius * 0.8, radius * 0.015);
   fb.color(1, 0, 0);
   fb.circle(xMax / 2, yMax / 2, radius * 0.075);
-  fb.font("fantasy", 12); // Use the "fantasy" font with size 12
-  fb.text(xMax / 2 - 10, yMax / 2 - 10, "test text", true, 0); // Draw the text non-centered, rotated _a_ degrees
+  fb.font("fantasy", 18); // Use the "fantasy" font with size 12
+  fb.text(xMax - 10, yMax - 10, "test text", true, 0); // Draw the text non-centered, rotated _a_ degrees
   fb.blit(); // Transfer the back buffer to the screen buffer
 };
 
