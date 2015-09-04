@@ -8,7 +8,7 @@ fb.clear();
 var xMax = fb.size().width;
 var yMax = fb.size().height;
 
-var radius = yMax / 2 - 10;
+var radius = yMax / 2 - 20;
 
 var RA = 180 / Math.PI;
 
@@ -71,6 +71,8 @@ var update = function() {
 };
 
 drawDial();
+fb.font("fantasy", 12); // Use the "fantasy" font with size 12
+fb.text(xMax - 10, yMax - 10, "test text", false, 0); // Draw the text non-centered, rotated _a_ degrees
 setInterval(function() {
   update();
 }, 100);
