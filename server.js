@@ -72,7 +72,7 @@ var update = function() {
 
 drawDial();
 fb.font("fantasy", 12); // Use the "fantasy" font with size 12
-fb.text(xMax - 10, yMax - 10, "test text", false, 0); // Draw the text non-centered, rotated _a_ degrees
+fb.text(xMax / 2 - 10, yMax / 2 - 10, "test text", true, 0); // Draw the text non-centered, rotated _a_ degrees
 setInterval(function() {
   update();
 }, 100);
