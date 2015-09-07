@@ -1,5 +1,5 @@
 # Use base image for device arch with node installed
-FROM resin/%%RESIN_DEVICE_TYPE%%-node:0.10.38
+FROM resin/raspberrypi2-node
 
 # create src dir
 RUN mkdir -p /usr/src/app/
