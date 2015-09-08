@@ -6,7 +6,7 @@
     "url": ""
   },
   "scripts": {
-    "preinstall": "bash deps.sh"
+    "preinstall": ""
   },
   "version": "0.0.3",
   "dependencies": {
