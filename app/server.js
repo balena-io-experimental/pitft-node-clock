@@ -68,7 +68,7 @@ var update = function() {
   fb.circle(xMax / 2, yMax / 2, radius * 0.075);
   fb.color(0, 0, 0);
   fb.font("fantasy", 14); // Use the "fantasy" font with size 12
-  fb.text(xMax / 2 - 42, yMax / 2 - 32, now.toDateString(),
+  fb.text(xMax / 2 - 52, yMax / 2 - 32, now.toDateString(),
     false, 0); // Draw the text non-centered, rotated _a_ degrees
   fb.blit(); // Transfer the back buffer to the screen buffer
 };
