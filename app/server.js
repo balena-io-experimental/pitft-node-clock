@@ -9,7 +9,7 @@ var xMax = fb.size().width;
 var yMax = fb.size().height;
 
 var radius = yMax / 2 - 10;
-var imageFilePath = process.cwd() + "/raspberry-pi-icon.png";
+var imageFilePath = __dirname + "/raspberry-pi-icon.png";
 var RA = 180 / Math.PI;
 
 var drawDial = function() {
