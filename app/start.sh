@@ -12,4 +12,4 @@ if [ ! -c /dev/fb1 ]; then
   mknod /dev/fb1 c $(cat /sys/class/graphics/fb1/dev | tr ':' ' ')
 fi
 
-node ./usr/src/app/server.js
+node ./server.js
