@@ -1,6 +1,7 @@
 var pitft = require("pitft");
 
 var fb = pitft("/dev/fb1", true); // Returns a framebuffer in double buffering mode
+console.log("starting node.js script...")
 
 // Clear the back buffer
 fb.clear();
