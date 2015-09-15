@@ -19,4 +19,4 @@ RUN JOBS=MAX npm install --unsafe-perm --production && npm cache clean
 COPY /app ./
 
 # npm start will run server.js by default
-CMD ["bash", "start.sh && node server.js"]
+CMD ["bash", "/usr/src/app/start.sh && node /usr/src/app/server.js"]
